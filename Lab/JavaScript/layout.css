@@ -1,0 +1,117 @@
+*
+{
+    font-family: 'Climate Crisis';
+}
+
+body{
+    background-image: url("./backgroundGameImage.jpg");
+    background-size: cover;
+}
+
+#main
+{
+    margin: 0x;
+    padding: 0px;
+}
+
+#signInContainer
+{
+
+    border: 5px solid beige;
+    background-color: beige;
+    border-radius: 25px;
+    margin-top: 125px;
+    margin-left: 25%;
+    padding: 0px;
+    width: 50%;
+
+}
+
+#signInTitle
+{
+    font-size: xx-large;
+    color: #f15025;
+    padding-top: 75px;
+    padding-left: 100px;
+}
+
+#fieldsAndButtons
+{
+    padding-top: 60px;
+}
+
+.inputContainer
+{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+#userNameText
+{
+    color: #f15025;
+    padding-bottom: 10px;
+}
+
+.fieldContainerOne
+{
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fieldText
+{
+    border: 0px;
+    position: relative;
+    padding-top: 1px;
+    padding-left: 10px;
+    border-radius: 2px;
+    width: 500px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buttonContainer
+{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#signInButton
+{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    font-size: x-large  ;
+    color: white;
+    border-color: #f15025;
+    border-radius: 10px;
+    background-color: #f15025;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.success
+{
+    border: 3px solid green;
+    border-radius: 10px;
+
+}
+
+@keyframes shakeIt
+{
+    0%{right:10px;}
+    50%{right: -10px;}
+    100%{right:0px;}
+}
+
+.error
+{
+    border: 3px solid red;
+    border-radius: 10px;
+    animation-name: shakeIt;
+    animation-duration: .5s;
+}
+
