@@ -9,6 +9,7 @@
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 50px;
+    
 }
 
 .main_vertical_division
@@ -22,6 +23,7 @@
     width: 34%;
     margin-right: 0px;
     padding-right: 0px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.2);
 }
 
 #my_photograph
@@ -119,9 +121,12 @@
 {
     margin-left: 0px;
     padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
     width: 65%;
     vertical-align: top;
     background-color: #f8f4f1;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.2);
 }
 
 #Title
