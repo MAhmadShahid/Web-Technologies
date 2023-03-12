@@ -1,6 +1,6 @@
 *
 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Raleway';
 }
 
 #cv_container
@@ -19,15 +19,16 @@
 #first_column
 {
     background-color: black;
-    width: 25%;
+    width: 34%;
     margin-right: 0px;
-    overflow: hidden;
+    padding-right: 0px;
 }
 
 #my_photograph
 {
     width: 100%;
-    background-size: contain;
+    background-size: cover;
+    height: 350px;
 }
 
 #column1_info_container
@@ -35,9 +36,99 @@
     color: white;
 }
 
+.column1_horizontal_division1
+{
+    padding-left: 20%;
+}
+
+.column1_title
+{
+    padding-top: 20px;
+    font-size: large;
+}
+
+.column1_sub_containers
+{
+    padding-top: 15px;
+    padding-left: 15%;
+}
+
+.degree, .reference_name
+{
+    font-size: medium;
+    padding-top: 20px;
+}
+
+.organization, .period, .reference_telephone{
+    padding-top: 8px;
+    font-size: small;
+}
+
+.line
+{
+    margin: 5px;
+    padding-top: 5px;
+    background-color: rgb(254, 203, 0);
+}
+
+#contact_container
+{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.contact_subcontainer
+{
+    margin-top: 20px;
+}
+
+.side
+{
+    display: inline-block;
+    background-color: rgb(254, 203, 0);
+    width: 20%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: px;
+    margin-right: 0px;
+    color: rgb(254, 203, 0);
+    margin-bottom: 0px;
+}
+
+.contact_category
+{
+    display: inline-block;
+    background-color: rgb(41, 42, 47);
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+    width: 71%;
+}
+
+.contact_value
+{
+    padding-left: 30%;
+    font-size: medium;
+    padding-top: 5px;
+}
+
+
 #second_column
 {
-    background-color: gray;
-    width: 70%;
+    margin-left: 0px;
+    padding-left: 0px;
+    background-color: white;
+    width: 65%;
     vertical-align: top;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+#my_name
+{
+    background-color: rgb(254, 203, 0);
+    margin-top: 50px;
 }
