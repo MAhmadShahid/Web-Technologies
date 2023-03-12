@@ -205,3 +205,43 @@
 {
     padding-top: 20px;
 }
+
+#skill_list_container
+{
+    margin-top: 33px;
+    margin-left: 5%;
+    margin-bottom: 60px;
+}
+
+.skill_column
+{
+    margin-right: 40px;
+    display: inline-block;
+    width: 40%;
+}
+
+.skill_item
+{
+    padding-top: 20px;
+}
+
+.progress_bar
+{
+    margin-top: 0px;
+}
+
+.achieved
+{
+    padding-top: 5px;
+    width: 75%;
+    background-color: black;
+    display: inline-block;
+}
+
+.minus_100
+{
+    display: inline-block;
+    padding-top: 5px;
+    width: 20%;
+    background-color: gray;
+}
