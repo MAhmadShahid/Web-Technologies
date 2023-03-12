@@ -1,0 +1,43 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cv_container
+{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+}
+
+.main_vertical_division
+{
+    display: inline-block;
+}
+
+#first_column
+{
+    background-color: black;
+    width: 25%;
+    margin-right: 0px;
+    overflow: hidden;
+}
+
+#my_photograph
+{
+    width: 100%;
+    background-size: contain;
+}
+
+#column1_info_container
+{
+    color: white;
+}
+
+#second_column
+{
+    background-color: gray;
+    width: 70%;
+    vertical-align: top;
+}
