@@ -12,7 +12,7 @@ body{
 {
     font-family: 'Climate Crisis';
     font-size: 75px;
-    padding-top: 40%;
+    padding-top: 30%;
 }
 
 #welcoming-text
@@ -23,7 +23,7 @@ body{
 
 #second-main-column
 {
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 #sign-in-container
@@ -53,5 +53,15 @@ body{
     height: 50px;
 }
 
+#controller-image
+{
+    float:right;
+}
 
+#welcome-description
+{
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 55px;
+}
 
