@@ -1,0 +1,253 @@
+*
+{
+    font-family: 'Raleway';
+}
+
+#cv_container
+{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main_vertical_division
+{
+    display: inline-block;
+}
+
+#first_column
+{
+    background-color: black;
+    width: 34%;
+    margin-right: 0px;
+    padding-right: 0px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.2);
+}
+
+#my_photograph
+{
+    width: 100%;
+    background-size: cover;
+    height: 375px;
+}
+
+#column1_info_container
+{
+    color: white;
+}
+
+.column1_horizontal_division1
+{
+    padding-left: 20%;
+}
+
+.column1_title
+{
+    padding-top: 20px;
+    font-size: large;
+}
+
+.column1_sub_containers
+{
+    padding-top: 15px;
+    padding-left: 15%;
+}
+
+.degree, .reference_name
+{
+    font-size: medium;
+    padding-top: 20px;
+}
+
+.organization, .period, .reference_telephone{
+    padding-top: 8px;
+    font-size: small;
+}
+
+.line
+{
+    margin: 5px;
+    padding-top: 5px;
+    background-color: rgb(254, 203, 0);
+}
+
+#contact_container
+{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.contact_subcontainer
+{
+    margin-top: 20px;
+}
+
+.side
+{
+    display: inline-block;
+    background-color: rgb(254, 203, 0);
+    width: 20%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: px;
+    margin-right: 0px;
+    color: rgb(254, 203, 0);
+    margin-bottom: 0px;
+}
+
+.contact_category
+{
+    display: inline-block;
+    background-color: rgb(41, 42, 47);
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+    width: 71%;
+}
+
+.contact_value
+{
+    padding-left: 30%;
+    font-size: medium;
+    padding-top: 5px;
+}
+
+
+#second_column
+{
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    width: 65%;
+    vertical-align: top;
+    background-color: #f8f4f1;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.2);
+}
+
+#Title
+{
+    padding: 20px;
+    padding-left: 30px;
+    background-color: rgb(254, 203, 0);
+    margin-top: 84px;
+    padding-bottom: 65px;
+}
+
+#my_name
+{
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+#profession
+{
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#description_container
+{
+    padding-left: 15%;
+}
+
+
+.description_subsection
+{
+    margin-top: 50px;
+}
+
+
+.black_line
+{
+    margin-top: 10px;
+    padding-top: 5px;
+    background-color: black;
+}
+
+.description_text
+{
+    margin-top: 20px;
+    width: 90%;
+}
+
+.description_text_container
+{
+    margin-top: 50px;
+}
+
+.tenure
+{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    font-weight: 500;
+}
+
+.work_description_container
+{
+    display: inline-block;
+    width: 60%;
+}
+
+.job_position
+{
+    font-weight: 500;
+    font-size: large;
+}
+
+.organization_details
+{
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+.job_details
+{
+    padding-top: 20px;
+}
+
+#skill_list_container
+{
+    margin-top: 33px;
+    margin-left: 5%;
+    margin-bottom: 60px;
+}
+
+.skill_column
+{
+    margin-right: 40px;
+    display: inline-block;
+    width: 40%;
+}
+
+.skill_item
+{
+    padding-top: 20px;
+}
+
+.progress_bar
+{
+    margin-top: 0px;
+}
+
+.achieved
+{
+    padding-top: 5px;
+    width: 75%;
+    background-color: black;
+    display: inline-block;
+}
+
+.minus_100
+{
+    display: inline-block;
+    padding-top: 5px;
+    width: 20%;
+    background-color: gray;
+}
