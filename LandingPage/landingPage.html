@@ -34,12 +34,16 @@
             </div> -->
         </div>
 
-        <button id="menu-button" type="button" class="btn btn-lg d-flex justify-content-around ">
+        <button id="menu-button" type="button" class="btn btn-lg d-flex justify-content-around dropdown-toggle" data-bs-toggle="dropdown">
             Menu
-            <div id="menu-img-holder">
+            <!-- <div id="menu-img-holder">
                 <img id="menu-image" src="landingPage-assets/menu-32px.png" alt="">
-            </div>
+            </div> -->
         </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="signInPage.html">Sign Out</a></li>
+            <li><a class="dropdown-item" href="services.html">Services</a></li>
+          </ul>
     </div>
     <div id="first-container" class="d-flex flex-column justify-content-start pt-5">
         <div id="first-container-first-row" class="d-flex flex-column text-center">
