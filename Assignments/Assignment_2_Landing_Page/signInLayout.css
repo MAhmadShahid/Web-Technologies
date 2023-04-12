@@ -67,3 +67,25 @@ body{
     margin-top: 55px;
 }
 
+.success
+{
+    border: 3px solid green;
+    border-radius: 10px;
+
+}
+
+@keyframes shakeIt
+{
+    0%{right:10px;}
+    50%{right: -10px;}
+    100%{right:0px;}
+}
+
+.error
+{
+    border: 3px solid red;
+    border-radius: 10px;
+    animation-name: shakeIt;
+    animation-duration: .5s;
+}
+
