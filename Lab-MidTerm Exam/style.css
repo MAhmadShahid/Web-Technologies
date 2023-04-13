@@ -136,3 +136,32 @@ a{
 {
     background-color: black;
 }
+
+#career-container
+{
+    margin: 40px;
+    display: flex;
+}
+
+#career-image-holder
+{
+    width: 40%;
+}
+
+#customer-image
+{
+    width: 550px;
+}
+
+#career-description
+{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 55%;
+}
+
+#title
+{
+    margin-bottom: 40px;
+}
