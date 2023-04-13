@@ -72,6 +72,12 @@ a{
     width: 30%;
 }
 
+#logo-button
+{
+    border: none;
+    background-color: white;
+}
+
 .nav-button
 {
     padding: 10px;
@@ -82,4 +88,51 @@ a{
     display: flex;
     justify-content: right;
     width: 60%;
+}
+
+#sub-menu-bar
+{
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+}
+
+.sub-menu-options
+{
+    justify-content: center;
+    width: 30%;
+    padding-left: 0px;
+}
+
+.sub-menu-span
+{
+    display: block;
+    color: rgb(0, 55, 77);
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 200px;
+}
+
+.sub-menu-options img{
+    padding-top: 20px;
+    padding-left: 250px;
+    display: block;
+    height: 50px;
+}
+
+#footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+}
+
+#footer-container
+{
+    background-color: black;
 }
