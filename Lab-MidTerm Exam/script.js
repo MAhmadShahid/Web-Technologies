@@ -1,5 +1,6 @@
-function alert()
+function display_registration()
 {
-    console.log("FA20-BCS-024");
     alert("FA20-BCS-024");
+    console.log("FA20-BCS-024");
+
 }
